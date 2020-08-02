@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <GuestRequestkey>0</GuestRequestkey>
+  <Orderkey>0</Orderkey>
+  <Hostkey>0</Hostkey>
+  <Commission>10</Commission>
+  <HostingUnitkey>0</HostingUnitkey>
+</Config>

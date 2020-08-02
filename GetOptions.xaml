@@ -1,0 +1,51 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.GetOptions"
+        mc:Ignorable="d"
+        Title="GetOptions" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <CollectionViewSource x:Key="orderViewSource" d:DesignSource="{d:DesignInstance {x:Type BE:Order}, CreateList=True}"/>
+        <CollectionViewSource x:Key="hostingUnitViewSource" d:DesignSource="{d:DesignInstance {x:Type BE:HostingUnit}, CreateList=True}"/>
+    </Window.Resources>
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="402" Margin="7,7,0,0" VerticalAlignment="Top" Width="776">
+            <TabItem Header="בדיקת תאריך ומספר ימים">
+
+                <Grid DataContext="{StaticResource orderViewSource}">
+
+                    <TextBox x:Name="numday" HorizontalAlignment="Left" Height="23" Margin="378,28,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="239" TextChanged="TextBox_TextChanged" Background="#FFEEDB67"/>
+                    <Label Content="הכנס מספר ימים" HorizontalAlignment="Left" Margin="637,26,0,0" VerticalAlignment="Top" Width="105"/>
+                    <Label Content="הכנס תאריך " HorizontalAlignment="Left" Margin="638,70,0,0" VerticalAlignment="Top" Width="85"/>
+                    <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="514,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.438,-0.782"/>
+                    <Button Content="הצג" HorizontalAlignment="Left" Margin="576,118,0,0" VerticalAlignment="Top" Width="75"/>
+                    <DataGrid x:Name="hostingUnitDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource hostingUnitViewSource}}" Margin="0,165,-3,9" RowDetailsVisibilityMode="VisibleWhenSelected">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn x:Name="areaColumn" Header="Area" Width="SizeToHeader">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Area}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn x:Name="hostingunitkeyColumn" Binding="{Binding Hostingunitkey}" Header="Hostingunitkey" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="hostingUnitNameColumn" Binding="{Binding HostingUnitName}" Header="Hosting Unit Name" Width="SizeToHeader"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="בדיקת מספר תאריכים">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="הכנס תאריך ובדיקת הזמנות">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <Label Content="הכנס מספר ימים" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133"/>
+        </TabControl>
+
+    </Grid>
+</Window>

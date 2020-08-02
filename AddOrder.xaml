@@ -1,0 +1,48 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.Window5"
+        mc:Ignorable="d"
+        Title="add Order" Height="450" Width="400" Loaded="Window_Loaded">
+    <Window.Resources>
+        <CollectionViewSource x:Key="orderViewSource" d:DesignSource="{d:DesignInstance {x:Type BE:Order}, CreateList=True}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource orderViewSource}" Background="#FFF7D01D">
+        <Label Content="הוספת הזמנה" HorizontalAlignment="Left" Margin="91,13,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" FontFamily="Guttman Yad-Brush"/>
+        <Grid x:Name="grid1" HorizontalAlignment="Left" Margin="49,73,0,0" VerticalAlignment="Top" Width="331">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="52.155"/>
+                <ColumnDefinition Width="135"/>
+                <ColumnDefinition Width="Auto" MinWidth="143"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3.351"/>
+                <RowDefinition Height="28.649"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content=":תאריך יצירת ההזמנה" Grid.Column="0" HorizontalAlignment="Left" Margin="15,0,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="177" Height="26"/>
+            <DatePicker x:Name="createDateDatePicker" Grid.Column="2" HorizontalAlignment="Left" Margin="3,1,0,4" Grid.Row="1" SelectedDate="{Binding CreateDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Height="24" Width="102"/>
+            <Label Content="תאריך משלוח המייל ללקוח" Grid.Column="0" HorizontalAlignment="Left" Margin="14,2,0,4" Grid.Row="2" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="26" Width="160"/>
+            <DatePicker x:Name="orderDateDatePicker" Grid.Column="2" HorizontalAlignment="Left" Margin="3,4,0,4" Grid.Row="2" SelectedDate="{Binding OrderDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Height="24" Width="102"/>
+            <Label Content=":סטטוס ההזמנה" Grid.Column="0" Margin="15,4,36,2" Grid.Row="3" VerticalAlignment="Center" Height="26" Grid.ColumnSpan="2"/>
+            <ComboBox x:Name="statusComboBox" Grid.Column="2" SelectedItem="{Binding Status}" HorizontalAlignment="Left" Height="22" Margin="3,5,0,5" Grid.Row="3" VerticalAlignment="Center" Width="120">
+                <ComboBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel/>
+                    </ItemsPanelTemplate>
+                </ComboBox.ItemsPanel>
+            </ComboBox>
+        </Grid>
+        <Button Content="הוסף הזמנה" HorizontalAlignment="Left" Margin="67,320,0,0" VerticalAlignment="Top" Width="249" Height="54" Click="Button_Click" FontSize="24" FontWeight="Bold"/>
+      
+        <Label Content="הכנס מספר יחידת אירוח" HorizontalAlignment="Left" Margin="56,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.808" Width="152"/>
+        <Label Content="הכנס מספר הזמנה" HorizontalAlignment="Left" Margin="57,210,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.808" Width="152"/>
+        <TextBox x:Name="HostingUnitKey" HorizontalAlignment="Left" Height="23" Margin="227,217,0,0" TextWrapping="Wrap" Text="מספר הזמנה " VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="GuestRequestKey"  HorizontalAlignment="Left" Height="23" Margin="231,182,0,0" TextWrapping="Wrap" Text="מספר יחידת אירוח" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

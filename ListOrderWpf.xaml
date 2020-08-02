@@ -1,0 +1,94 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.ListOrderWpf"
+        mc:Ignorable="d"
+        Title="ListOrderWpf" Height="500" Width="750.938" Loaded="Window_Loaded">
+    <Window.Resources>
+        <DataTemplate x:Key="OrderTemplate"
+                  DataType="local:BE.Order">
+        </DataTemplate>
+        <CollectionViewSource x:Key="orderViewSource" d:DesignSource="{d:DesignInstance {x:Type BE:Order}, CreateList=True}"/>
+    </Window.Resources>
+
+    <Grid Margin="0,0,-3.8,-3.6" DataContext="{StaticResource orderViewSource}">
+
+        <Grid.Background>
+            <ImageBrush ImageSource="עץ.jpg"/>
+        </Grid.Background>
+        <Label Content="רשימת הזמנות  " HorizontalAlignment="Left" Margin="277,13,0,0" VerticalAlignment="Top" Width="198" FontSize="24" FontFamily="Guttman Yad-Brush" Height="45" FontWeight="Bold"/>
+        <Label Content="בס&quot;ד" HorizontalAlignment="Left" Margin="670,13,0,0" VerticalAlignment="Top"/>
+        <Button Content="חזור" HorizontalAlignment="Left" Margin="625,406,0,0" VerticalAlignment="Top" Width="97" Height="53" Background="#FFFF4848" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <DataGrid x:Name="orderDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding B}" Margin="12,71,17.6,114" RowDetailsVisibilityMode="VisibleWhenSelected" >
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+
+                    <Setter Property="Background" Value="Turquoise"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="BorderThickness" Value="0,0,1,2"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTemplateColumn x:Name="commissionColumn" Header="Commission" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Commission}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn x:Name="createDateColumn" Header="Create Date" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding CreateDate}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn x:Name="guestrequestKeyColumn" Header="Guestrequest Key" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding GuestrequestKey}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn x:Name="hostingunitKeyColumn" Header="Hostingunit Key" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding HostingunitKey}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn x:Name="orderDateColumn" Header="Order Date" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding OrderDate}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn x:Name="orderkeyColumn" Header="Orderkey" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Orderkey}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn x:Name="statusColumn" Header="Status" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Status}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="עדכון הזמנה" HorizontalAlignment="Left" Margin="62,394,0,0" VerticalAlignment="Top" Width="180" Height="59" FontSize="22" FontWeight="Bold" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

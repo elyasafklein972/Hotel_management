@@ -1,0 +1,46 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.ListOrder"
+        mc:Ignorable="d"
+        Title="ListOrder" Height="450" Width="800" Loaded="Window_Loaded">
+
+    <Window.Resources>
+        <CollectionViewSource x:Key="orderViewSource" d:DesignSource="{d:DesignInstance {x:Type BE:Order}, CreateList=True}"/>
+    </Window.Resources>
+
+    <Grid DataContext="{StaticResource orderViewSource}">
+
+
+
+        <DataGrid x:Name="orderDataGrid" RowDetailsVisibilityMode="VisibleWhenSelected" Margin="5,10,8,11" ItemsSource="{Binding}" EnableRowVirtualization="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="commissionColumn" Width="SizeToHeader" Header="Commission" Binding="{Binding Commission}"/>
+                <DataGridTemplateColumn x:Name="createDateColumn" Width="SizeToHeader" Header="Create Date">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding CreateDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn x:Name="guestrequestKeyColumn" Width="SizeToHeader" Header="Guestrequest Key" Binding="{Binding GuestrequestKey}"/>
+                <DataGridTextColumn x:Name="hostingunitKeyColumn" Width="SizeToHeader" Header="Hostingunit Key" Binding="{Binding HostingunitKey}"/>
+                <DataGridTemplateColumn x:Name="orderDateColumn" Width="SizeToHeader" Header="Order Date">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding OrderDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn x:Name="orderkeyColumn" Width="SizeToHeader" Header="Orderkey" Binding="{Binding Orderkey}"/>
+                <DataGridTextColumn x:Name="statusColumn" Width="SizeToHeader" Header="Status" Binding="{Binding Status}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,63 @@
+﻿<Window x:Class="PLWPF.addorder2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+         xmlns:BE="clr-namespace:BE;assembly=BE" 
+        mc:Ignorable="d"
+        Title="addorder2" Height="500" Width="400">
+    <Window.Resources>
+        <CollectionViewSource x:Key="orderViewSource" d:DesignSource="{d:DesignInstance {x:Type BE:Order}, CreateList=True}"/>
+    </Window.Resources>
+    <Grid Margin="0,0,-0.4,0.4">
+        <Grid.Background>
+            <ImageBrush ImageSource="עץ.jpg"/>
+        </Grid.Background>
+        <Label Content="הוספת הזמנה" HorizontalAlignment="Left" Margin="108,9,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" FontFamily="Guttman Yad-Brush"/>
+        <Grid x:Name="grid1" HorizontalAlignment="Left" Margin="49,73,0,0" VerticalAlignment="Top" Width="331">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="52.155"/>
+                <ColumnDefinition Width="135"/>
+                <ColumnDefinition Width="Auto" MinWidth="143"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3.351"/>
+                <RowDefinition Height="28.649"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content=":תאריך יצירת ההזמנה" Grid.Column="1" HorizontalAlignment="Left" Margin="121,-4,-18.8,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="177" Height="26" Grid.RowSpan="2" FontWeight="Bold"/>
+            <DatePicker x:Name="createDateDatePicker" HorizontalAlignment="Left" Margin="21,-4,0,12" SelectedDate="{Binding CreateDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Height="24" Width="102" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+            <Label Content=":סטטוס ההזמנה" Grid.Column="1" Margin="122,5,19.2,1" Grid.Row="3" VerticalAlignment="Center" Height="26" Grid.ColumnSpan="2" FontWeight="Bold"/>
+            <ComboBox x:Name="statusComboBox" SelectedItem="{Binding Status}" HorizontalAlignment="Left" Height="22" Margin="20,7,0,3" Grid.Row="3" VerticalAlignment="Center" Width="120" Grid.ColumnSpan="2">
+                <ComboBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel/>
+                    </ItemsPanelTemplate>
+                </ComboBox.ItemsPanel>
+            </ComboBox>
+        </Grid>
+        <Button Content="הוסף הזמנה" HorizontalAlignment="Left" Margin="67,320,0,0" VerticalAlignment="Top" Width="249" Height="54" Click="Button_Click" FontSize="36" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+        <Label Content=":הכנס מספר יחידת אירוח" HorizontalAlignment="Left" Margin="226,163,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.808" Width="152" FontWeight="Bold"/>
+        <Label Content=":הכנס מספר בקשת אירוח" HorizontalAlignment="Left" Margin="223,209,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.808" Width="152" FontWeight="Bold"/>
+        <ComboBox x:Name="GuestComboBox" HorizontalAlignment="Left" Height="25" Margin="72,206,0,239" 
+            SelectedValue="{Binding GuestRequestkey, Mode=TwoWay,
+               ValidatesOnDataErrors=True,
+                 NotifyOnValidationError=True, 
+                        ValidatesOnExceptions=true}" 
+           
+            VerticalAlignment="Center" Width="121"  SelectionChanged="GuestComboBox_SelectionChanged" />
+        <Label Content="בס&quot;ד" HorizontalAlignment="Left" Margin="332,8,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="hostingComboBox" HorizontalAlignment="Left" Margin="72,163,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="hostingComboBox_SelectionChanged" SelectedValue="{Binding Hostingunitkey, Mode=TwoWay,
+               ValidatesOnDataErrors=True,
+                 NotifyOnValidationError=True, 
+                        ValidatesOnExceptions=true}" />
+        <Button Content="חזור" HorizontalAlignment="Left" Margin="287,408,0,0" VerticalAlignment="Top" Width="84" Height="46" FontSize="22" FontWeight="Bold" Background="#FFEE4D4D" Click="Button_Click_1"/>
+    </Grid>
+</Window>
