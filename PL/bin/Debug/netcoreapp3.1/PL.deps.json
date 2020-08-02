@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PL/1.0.0": {
+        "dependencies": {
+          "BE": "1.0.0",
+          "BL": "1.0.0"
+        },
+        "runtime": {
+          "PL.dll": {}
+        }
+      },
+      "BE/1.0.0": {
+        "runtime": {
+          "BE.dll": {}
+        }
+      },
+      "BL/1.0.0": {
+        "dependencies": {
+          "BE": "1.0.0",
+          "DAL": "1.0.0"
+        },
+        "runtime": {
+          "BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "dependencies": {
+          "BE": "1.0.0",
+          "DS": "1.0.0"
+        },
+        "runtime": {
+          "DAL.dll": {}
+        }
+      },
+      "DS/1.0.0": {
+        "dependencies": {
+          "BE": "1.0.0"
+        },
+        "runtime": {
+          "DS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,95 @@
+C:\Users\Omer\source\repos\project\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\Omer\source\repos\project\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\Omer\source\repos\project\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\Omer\source\repos\project\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\Omer\source\repos\project\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\source\repos\project\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\source\repos\project\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\source\repos\project\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\source\repos\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\Omer\source\repos\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\source\repos\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\source\repos\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\Omer\source\repos\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\Omer\source\repos\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\source\repos\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\source\repos\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (6)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (6)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (6)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (6)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (6)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (6)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (6)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (6)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (7)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (7)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (7)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (7)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (7)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (7)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (7)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 (7)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\Desktop\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\פרויקט\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\Downloads\Telegram Desktop\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\Omer\Downloads\Telegram Desktop\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\Downloads\Telegram Desktop\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\Omer\Downloads\Telegram Desktop\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\Omer\Downloads\Telegram Desktop\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\Omer\Downloads\Telegram Desktop\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\Omer\Downloads\Telegram Desktop\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\Omer\Downloads\Telegram Desktop\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\elyasaf\Desktop\פרוייקט C#\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\פרוייקט C#\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\elyasaf\Desktop\פרוייקט C#\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\elyasaf\Desktop\פרוייקט C#\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\פרוייקט C#\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 הכי מעודכן\Project01_7872_3940_dotNet5780 מעודכן\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Downloads\Project01_7872_3940_dotNet5780 (1)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\elyasaf\Downloads\Project01_7872_3940_dotNet5780 (1)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Downloads\Project01_7872_3940_dotNet5780 (1)\Project01_7872_3940_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Downloads\Project01_7872_3940_dotNet5780 (1)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\elyasaf\Downloads\Project01_7872_3940_dotNet5780 (1)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\elyasaf\Downloads\Project01_7872_3940_dotNet5780 (1)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\elyasaf\Downloads\Project01_7872_3940_dotNet5780 (1)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Downloads\Project01_7872_3940_dotNet5780 (1)\Project01_7872_3940_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\Project01_7872_3940_dotNet5780 להגשה סופית\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\elyasaf\Desktop\Project01_7872_3940_dotNet5780 להגשה סופית\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\Project01_7872_3940_dotNet5780 להגשה סופית\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\Project01_7872_3940_dotNet5780 להגשה סופית\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\elyasaf\Desktop\Project01_7872_3940_dotNet5780 להגשה סופית\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Users\elyasaf\Desktop\Project01_7872_3940_dotNet5780 להגשה סופית\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\elyasaf\Desktop\Project01_7872_3940_dotNet5780 להגשה סופית\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Users\elyasaf\Desktop\Project01_7872_3940_dotNet5780 להגשה סופית\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
